@@ -1,5 +1,5 @@
 export function someFn(prop: number): string {
-  console.log('RANDOM!!!');
+  console.log('fuck you!!');
 
   return prop + 'hello';
 }
