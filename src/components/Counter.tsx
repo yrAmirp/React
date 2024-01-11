@@ -1,18 +1,19 @@
 import { useState } from "react";
-import './Counter.scss';
 import './Counter.css';
+import { CounterChild } from "./CounterChild";
 export const Counter = () => {
-
-  const [count, setCount] = useState(0);
+  let value = 0;
   return (
     <div>
-      <h1>{count}</h1>
       <button onClick={() => {
-        setCount((count) => count + 1)
-        setCount((count) => count + 1)
+        
       }}>
-        Increment
+        get value
       </button>
+      <CounterChild value={value} />
     </div>
   );
 };
+
+
+
