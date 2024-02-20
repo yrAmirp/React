@@ -1,0 +1,23 @@
+$buttonPrimaryColor: #dee649;
+$buttonSecondaryColor: #202019;
+
+.Button {
+  cursor: pointer;
+  padding: 6px 10px;
+}
+
+.text {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.primary {
+  background-color: $buttonPrimaryColor;
+  color: var(--secondary-color);
+}
+
+.secondary {
+  border: 1px solid $buttonPrimaryColor;
+  border-radius: 8px;
+}
